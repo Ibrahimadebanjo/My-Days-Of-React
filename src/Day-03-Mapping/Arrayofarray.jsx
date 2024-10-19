@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 const Skill = ({ skill: [tech, level] }) => (
     <li>
       {tech} {level}
@@ -10,6 +11,6 @@ const Skill = ({ skill: [tech, level] }) => (
     return <ul>{skillsList}</ul>
   }
   Skills.propTypes = {
-    
+    skill :
 }
   export default Skills
