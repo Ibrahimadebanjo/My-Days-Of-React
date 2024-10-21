@@ -1,15 +1,35 @@
 import React, { Component } from 'react';
-class Class2 extends React.Component {
- constructor(props){
+import PropTypes from 'prop-types';
+
+class Class2 extends Component {
+  constructor(props) {
     super(props);
- }
- render(){
-    return(
-        <div>
-            <h1>my name is {this.props.data.name}</h1>
-            <p> I am {this.props.data.age} Years old! </p>
-        </div>
-    )
- }
+  }
+
+  render() {
+    const { name, age } = this.props.data;
+
+    return (
+      <div>
+        <h1>My name is {name}</h1>
+        <p>I am {age} years old!</p>
+      </div>
+    );
+  }
 }
+
+Class2.propTypes = {
+  data: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    age: PropTypes.number.isRequired,
+  }).isRequired,
+};
+
+Class2.defaultProps = {
+  data: {
+    name: 'Unknown',
+    age: 0,
+  },
+};
+
 export default Class2;
