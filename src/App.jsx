@@ -24,6 +24,8 @@ import InputRef from './Day-06-Hooks/UseRef03';
 import UseMeme01 from './Day-06-Hooks/Use-Memo';
 import ContextTesting from './Day-06-Hooks/Context-Testing';
 import UseReducer01 from './Day-06-Hooks/Use-Reducer';
+import EventHandling from './Day-07-Events/Events-01';
+import UseForm01 from './Day-08-Forms/Forms-01';
 
 
 const data = {
@@ -47,7 +49,7 @@ function App() {
 <FunctionalCounter/>
 <BackgroundChange/>
 <RandomDataGenerator2/> */}
-<UseState01/>
+{/* <UseState01/>
 <UseState02/>
 <UseState03/>
 <UseEffect01/>
@@ -57,7 +59,9 @@ function App() {
 <InputRef/>
 <UseMeme01/>
 <ContextTesting/>
-<UseReducer01/>
+<UseReducer01/> */}
+<EventHandling/>
+<UseForm01/>
     </div>
   )
 }
