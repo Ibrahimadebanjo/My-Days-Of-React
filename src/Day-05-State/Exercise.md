@@ -569,3 +569,30 @@ State Management: The component manages an array of objects (data) and a selecte
 Generating Random Data: When the button is clicked, generateRandomData selects a random object from the array and updates the state.
 Rendering: The render() method re-renders the component every time the state changes. If a person is selected, their details (ID, name, age, image) are displayed using conditional rendering.
 UI Updates: When a random item is selected, the component re-renders, showing the selected person’s details below the button.
+
+
+{/* <Exercise1 />
+<HexGenerator /> */} 
+{/* <Numbers numbers = {numbers}/> 
+<Skills skills={skills} />
+<Countries countries={countries}/> */}
+{/* <Class />
+<Class2 data={data}/>
+<TodoList/>
+<Counter/>
+<FunctionalCounter/>
+<BackgroundChange/>
+<RandomDataGenerator2/> */}
+{/* <UseState01/>
+<UseState02/>
+<UseState03/>
+<UseEffect01/>
+<UseEffect02/>
+<FocusInput/>
+<Timer/>
+<InputRef/>
+<UseMeme01/>
+<ContextTesting/>
+<UseReducer01/> */}
+{/* <EventHandling/> */}
+{/* <UseForm01/> */}
